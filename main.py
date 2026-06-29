@@ -5,12 +5,11 @@ from naked.core.registry import Registry
 
 from naked.providers.dummy.provider import DummyProvider
 
-registry = Registry()
+async def main():
+    registry = Registry()
+    registry.register(DummyProvider())
+    engine = NakedEngine(registry)
+    results = await engine.search("snakefirts")
+    print(results)
 
-registry.register(DummyProvider())
-
-engine = NakedEngine(registry)
-
-asyncio.run(
-    engine.search("snakefirts")
-)
+asyncio.run(main())

@@ -1,10 +1,12 @@
+from naked.core.plugin import Provider
+
 class Registry:
-
     def __init__(self):
-        self.providers = []
+        self._providers: list[Provider] = []
 
-    def register(self, provider):
-        self.providers.append(provider)
+    def register(self, provider: Provider):
+        self._providers.append(provider)
 
-    def get_all(self):
-        return self.providers
+    @property
+    def providers(self):
+        return self._providers
