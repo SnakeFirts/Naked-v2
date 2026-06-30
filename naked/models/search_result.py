@@ -1,3 +1,4 @@
+from enum import Enum
 from typing import Any
 
 from pydantic import BaseModel
@@ -13,6 +14,10 @@ class SearchResult(BaseModel):
     username: str
 
     exists: bool
+
+    status: ResultStatus = ResultStatus.NOT_FOUND
+
+    error: str | None = None
 
     url: str | None = None
 

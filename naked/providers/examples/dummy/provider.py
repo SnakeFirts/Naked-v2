@@ -2,7 +2,7 @@ from naked.core.plugin import Provider
 
 from naked.models.profiles.base import BaseProfile
 
-from naked.models.search_result import SearchResult
+from naked.models.search_result import ResultStatus, SearchResult
 
 
 class DummyProvider(Provider):
@@ -26,6 +26,8 @@ class DummyProvider(Provider):
             username=username,
 
             exists=True,
+
+            status=ResultStatus.FOUND,
 
             url=f"https://dummy.local/{username}",
 
