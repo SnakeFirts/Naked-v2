@@ -1,38 +1,40 @@
 ```
-                                              __
-                                             / _)
-                                      .-^^^-/ /
-                                   __/       /
-                                  <__.|_|-|_|
-
-     _   _    _    _  _______ ____
-    | \ | |  / \  | |/ / ____|  _ \
-    |  \| | / _ \ | ' /|  _| | | | |
-    | |\  |/ ___ \| . \| |___| |_| |
-    |_| \_/_/   \_\_|\_\_____|____/
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣶⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣰⡆⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⡟⢹⡀⠀⠀⠀⠀⠀⣠⣾⣿⣿⡿⠋⠁⠶⠿⠿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣧⣴⣦⣄⡀⠈⣿⣿⣿⡟⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⠷⣆⣀⣀⣀⠀⠀⠀⠀
+⠀⠀⣞⣠⣶⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀⠀⠀⢀⣴⠟⢻⡄⠀⠀⠀⠈⢿⢻⣿⣿⣿⠀⠀⠉⠉⠉⠳⡄⠀⠀
+⠀⠀⣿⣿⠿⣿⣿⡟⢸⣿⣿⣿⣿⠃⠀⠀⣠⠞⠁⠀⠀⠛⢦⡀⠀⠀⠀⠀⣿⣿⣿⠀⠀⠠⡀⠀⠀⠙⡄⠀
+⠀⢰⣿⡋⠀⠙⠋⠁⢺⣿⣿⣿⣿⡄⠀⡴⠁⠀⠀⠀⠀⠀⠀⠈⢷⡀⠀⠀⣿⣿⣿⠀⠀⠀⢿⠀⠀⠀⠹⠀
+⠀⠸⠉⠀⣀⣀⣀⡀⢸⣿⣿⣿⣿⢃⠌⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡇⠀⠀⣿⣿⡏⡀⠀⠀⢸⡁⣤⠀⠀⡀
+⠀⠃⠀⡼⠁⠀⠀⠁⠈⣿⣿⣿⣯⡎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⢸⣿⣿⢰⣿⡆⠀⢸⣿⣿⠀⠀⡇
+⣀⡿⠙⠁⠀⠀⠀⠀⠀⠘⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⢧⡀⠘⢿⣿⡆⠋⠀⢀⣾⣿⣿⡷⢀⡇
+⠁⠀⠀⠀⠀⠀⣤⣀⠀⣇⠸⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡙⢦⣼⣿⣿⡄⢀⣼⣿⣿⣿⣧⣾⠃
+⠀⠀⠀⠀⠀⠀⠹⣿⣷⣾⣆⢹⣿⣿⣠⣦⠀⠀⠀⠀⠀⠀⢀⠀⢄⣾⣿⣦⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀
+⠀⠀⠀⠀⠀⠀⠀⢹⣏⠻⠟⠀⢻⣿⣿⣿⠀⠀⠀⠀⢀⢀⣀⣤⣤⣭⣙⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢻⡀⠀⠀⠀⢿⠋⣿⡇⠀⠀⢀⡾⠟⠛⣿⡿⠙⢻⣿⣿⠿⠿⠿⠿⠿⠋⠁⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠃⠀⠀⠀⠀⠀⠘⣿⠀⠀⠈⠀⠀⣰⠏⠀⢀⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⡄⠀⠀⠀⠠⠋⠀⠀⣼⣿⣷⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢧⠀⠀⠀⠀⠀⠀⠀⠉⣼⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠀⠀⠀⠀⠀⠀⠀⠠⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ```
 
-> Username correlation and identity research framework.
+# NAKED
 
-NAKED is an OSINT tool for username intelligence: given a single
-username, it queries multiple providers concurrently and returns not
-just *whether* an account exists, but how confident you should be
-about it.
-
----
+Username correlation and identity research framework.
 
 ## Why NAKED
 
-Most username-checking tools give you a binary answer:
+NAKED is a personal project that does, as the name suggests, what it says: it strips an identity down to what's actually verifiable. The core is built to automate that search — collecting and correlating an identity's traces across platforms — so you don't have to do it by hand.
 
-```
-[+] github.com/snakefirts        FOUND
-[-] tiktok.com/@snakefirts        NOT FOUND
-```
+Given a username, NAKED queries multiple providers in parallel and returns not just whether an account exists, but how much you should trust that result.
 
-That's not enough for real research. "Not found" and "I couldn't
-verify this" are two completely different things, and conflating them
-produces false negatives. NAKED treats them as such:
+## How results work
+
+Every result carries a `status`: `FOUND`, `NOT_FOUND`, or `ERROR`. "Doesn't exist" and "couldn't verify" are not the same thing, and treating them as equivalent produces false negatives. When a result is `FOUND`, NAKED also computes a NAKED Score with the reasons behind the number — not a value pulled out of nowhere.
 
 ```
 github
