@@ -2,7 +2,6 @@ from naked.intelligence.rules import RULES_BY_PROVIDER
 from naked.models.intelligence_score import IntelligenceScore
 from naked.models.search_result import SearchResult
 
-
 class ScoreCalculator:
     """
     Calcula un IntelligenceScore a partir de un SearchResult,
@@ -24,9 +23,17 @@ class ScoreCalculator:
 
         applied = rules_fn(result)
 
-        total = sum(points for points, _ in applied)
+        total = sum(evidence.points for evidence in applied if evidence.passed)
         total = max(0, min(total, cls.MAX_SCORE))
 
-        reasons = [reason for _, reason in applied]
+        reasons = [
+            evidence.description
+            for evidence in applied
+            if evidence.passed
+        ]
 
-        return IntelligenceScore(score=total, reasons=reasons)
+        return IntelligenceScore(
+            score=total,
+            reasons=reasons,
+            evidences=applied,
+        )

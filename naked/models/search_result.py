@@ -7,6 +7,12 @@ from naked.models.profiles.base import BaseProfile
 from naked.models.intelligence_score import IntelligenceScore
 
 
+class ResultStatus(str, Enum):
+    FOUND = "found"
+    NOT_FOUND = "not_found"
+    ERROR = "error"
+
+
 class SearchResult(BaseModel):
 
     provider: str
